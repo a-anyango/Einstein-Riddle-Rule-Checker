@@ -49,7 +49,7 @@ public class EinsteinRiddle
         if (Math.Abs(Array.IndexOf(Cigarettes, "Blends") - Array.IndexOf(Pets, "Cats")) != 1)
             brokenRules.Add("The man who smokes Blends lives next to the one who keeps Cats.");
 
-        // Check the number of broken rules and print the appropriate message
+        // Check number of broken rules and print appropriate message
         if (brokenRules.Count == 0)
             Console.WriteLine("Success"); // All rules have been passed
         else if (brokenRules.Count == 10)
@@ -63,12 +63,12 @@ public class EinsteinRiddle
     }
 }
 
-// Define the main program
+// Main program
 class Program
 {
     static void Main(string[] args)
     {
-        // Define the possible values for each category
+        // Define possible values for each category
         string[] colors = new string[] { "Yellow", "Blue", "Red", "Green", "White" };
         string[] nationalities = new string[] { "Norwegian", "Dane", "Brit", "German", "Swede" };
         string[] drinks = new string[] { "Water", "Tea", "Milk", "Coffee", "Beer" };
