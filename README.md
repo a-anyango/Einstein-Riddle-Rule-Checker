@@ -1,0 +1,2 @@
+# Einstein Riddle Rule Checker
+ 
